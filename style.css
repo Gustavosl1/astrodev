@@ -4,12 +4,6 @@
   box-sizing: border-box;
 }
 
-@font-face {
-  font-family: 'kimberley';
-  src: url('./fonts/kimberley\ bl.otf') format('opentype');
-
-}
-
 body{
   background-image: url(./Fundo.png); /* FUNDO*/
   background-repeat: no-repeat;
