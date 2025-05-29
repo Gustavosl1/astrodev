@@ -5,9 +5,8 @@
 }
 
 body{
-  background-image: url(./Fundo.png); /* FUNDO*/
-  background-repeat: no-repeat;
-  background-position:top center;
+ background: linear-gradient(90deg,rgba(131, 58, 180, 1) 0%, rgba(182, 29, 253, 1) 50%, rgba(252, 176, 69, 1) 100%);
+  background-size: cover;
  
 }
 
@@ -80,6 +79,8 @@ ul li a:hover {
 #social-links{
   display: flex;
   justify-content: center;
+  align-items: center;
+  text-decoration: none;
 
   padding: 24px 0;
 
@@ -95,6 +96,8 @@ ul li a:hover {
   transition: background 0.2s;
   border-radius: 50%;
   list-style: none;
+  text-decoration: none;
+
 
   
 } 
@@ -102,7 +105,7 @@ ul li a:hover {
 
 
 #social-links a:hover{
-  background: #7709ff;
+  background: #000000;
 }
 
 .copy{
